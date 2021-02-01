@@ -1,0 +1,23 @@
+platformName: Android
+
+#oppo真机,模拟器
+platformVersion:
+  xiaoyao: 5.1.1
+  oppo: 6.0.1
+
+deviceName:
+  xiaoyao: 127.0.0.1:21503
+  oppo: 8c8237f
+
+appPackage: com.chan.iamabuyer
+appActivity: ui.SplashActivity
+ip: localhost
+port: 4723
+
+appname: D:\maishou_testProject\app\app-release.apk   #我是买手安装包名称D:\maishou_testProject\app\app-release.apk
+
+automationName: uiautomator2
+
+noReset: True            #true启动app时不要清除app里的原有的数据,false清除
+unicodeKeyboard: True     #使用unicode输入法,可以输入中文
+resetKeyboard: True         #重置输入法到初始状态
